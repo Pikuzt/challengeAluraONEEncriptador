@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu">
+        <img src="/img/logo.svg" alt="" srcset="" />
+      </div>
+    </header>
+
+    <section class="contenedor">
+      <div class="item-section one-input-texto">
+        <div class="">
+          <textarea
+            class="input-text"
+            id="text-in"
+            name="intext"
+            cols="30"
+            rows="10"
+            placeholder="Introduzca su texto aquí..."
+          ></textarea>
+        </div>
+        <div class="contenedor-btn">
+          <button
+            class="item-btn btn-one-encriptar"
+            onclick="text_encriptado()"
+          >
+            Encriptar
+          </button>
+          <button
+            class="item-btn btn-one-desencriptar"
+            onclick="text_des_encriptado()"
+          >
+            Desencriptar
+          </button>
+        </div>
+      </div>
+
+      <div class="item-section one-resultado">
+        <img
+          class="img-resultado"
+          src="./img/buscador-img.svg"
+          alt=""
+          srcset=""
+        />
+
+        <div id="traduccion">
+          <div class="contenedor-texto-title">
+            Ingresa el texto que desees encriptar o desencriptar.
+          </div>
+          <div class="contenedor-texto">
+            Ingresa el texto que desees encriptar o desencriptar.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <strong
+          > COPYRIGHT: Challenge ONE G5 - Alura: Encriptador de
+          texto</strong
+        >
+      </div>
+
+      <div>
+        <strong>Realizado por: José Carlos Castillo Villa</strong>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
